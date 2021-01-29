@@ -19,14 +19,14 @@ watch(() => {
     console.log(plus.value);
 })
 
-document.getElementById('btn')?.addEventListener('click', () => {
-    data.count++
-    console.log(plus.value);
+// document.getElementById('btn')?.addEventListener('click', () => {
+//     data.count++
+//     console.log(plus.value);
 
-})
+// })
 
-document.getElementById('btn1')?.addEventListener('click', () => {
+// document.getElementById('btn1')?.addEventListener('click', () => {
 
-    console.log(plus.value);
+//     console.log(plus.value);
 
-})
+// })

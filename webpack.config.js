@@ -2,7 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: {
-        reactive: './src/index.ts'
+        reactive: './src/vue2/index.ts',
+        proxy:'./src/vue3/index.ts'
     },
     output: {
         path: path.resolve(__dirname, './dist'),
